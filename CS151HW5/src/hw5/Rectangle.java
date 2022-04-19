@@ -6,9 +6,11 @@ public class Rectangle extends Shape {
 	private int width;
 	public double area;
 	
+	@Override
 	public double computeArea() {
 		
 		area = length*width;
+		System.out.println("Area of Rectangle is " + area);
 		return area;
 		
 	}
@@ -19,4 +21,11 @@ public class Rectangle extends Shape {
 		this.width = width;
 	}
 
+	@Override
+	public String toString() {
+		return "Rectangle [length=" + length + ", width=" + width + ", area=" + area + "]";
+	}
+
+	
+	
 }

@@ -6,9 +6,11 @@ public class Circle extends Shape {
 	public double area;
 	double pi = 3.14159;
 	
+	@Override
 	public double computeArea() {
 		
 		area = pi * radius * radius;
+		System.out.println("Area of Circle is " + area);
 		return area;
 		
 	}
@@ -19,5 +21,11 @@ public class Circle extends Shape {
 		
 	}
 
+	@Override
+	public String toString() {
+		return "Circle [radius=" + radius + ", area=" + area + ", pi=" + pi + "]";
+	}
+
+	
 }
 

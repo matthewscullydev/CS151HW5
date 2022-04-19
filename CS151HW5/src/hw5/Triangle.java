@@ -6,10 +6,11 @@ public class Triangle extends Shape {
 	private int height;
 	public double area;
 
-	
+	@Override
 	public double computeArea() {
 		
 		area = base*height/2;
+		System.out.println("Area of Triangle is " + area);
 		return area;
 		
 	}
@@ -20,5 +21,12 @@ public class Triangle extends Shape {
 		this.height= height;
 	}
 
+	@Override
+	public String toString() {
+		return "Triangle [base=" + base + ", height=" + height + ", area=" + area + "]";
+	}
+
+	
+	
 }
 
