@@ -106,4 +106,9 @@ public class Shapes {
 		
 	}
 
+	@Override
+	public String toString() {
+		return "Shapes [shapeList=" + shapeList + "]";
+	}
+
 }

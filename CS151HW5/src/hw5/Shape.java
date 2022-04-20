@@ -43,4 +43,9 @@ public class Shape extends Thread {
 		this.type = type;
 	}
 
+	@Override
+	public String toString() {
+		return "Shape [type=" + type + "]";
+	}
+
 }
