@@ -1,3 +1,18 @@
+/**
+ * 
+ * @author Matthew Scully
+ * @version 1.0
+ * @since 3-9-22
+ * 
+ * Course class
+ * <p>
+ * 
+ * This is the shapetest class which contains the two desired implementations of the shape arraylist
+ * 
+ * </p>
+ * 
+ */
+
 package hw5;
 
 import java.util.ArrayList;
@@ -28,10 +43,13 @@ public class ShapeTest {
 		shapes.add(shape7);
 		shapes.add(shape8);
 		
-		
+	// this next line is the first problem, adding to the arraylist and then computing the area.	
 		
 		shapes.compute();
 	
+	// the following is the second problem, if you comment out the line shapes.compute();
+	// and erase the comments for the section below problem 2 should work properly. 
+		
 		/*
 		
 		System.out.println("Running Calculations..");

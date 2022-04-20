@@ -1,3 +1,18 @@
+/**
+ * 
+ * @author Matthew Scully
+ * @version 1.0
+ * @since 3-9-22
+ * 
+ * Course class
+ * <p>
+ * 
+ * This is the Hexagon class which contains attributes and functionality for a Hexagon shape.
+ * 
+ * </p>
+ * 
+ */
+
 package hw5;
 
 public class Hexagon extends Shape {
@@ -5,6 +20,11 @@ public class Hexagon extends Shape {
 	private int sidelength;
 	public double area;
 
+	
+	/**
+	 * This is the computeArea method for a Hexagon which returns the area of a Hexagon.
+	 */
+	
 	@Override
 	public double computeArea() {
 		

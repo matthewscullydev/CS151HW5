@@ -1,3 +1,18 @@
+/**
+ * 
+ * @author Matthew Scully
+ * @version 1.0
+ * @since 3-9-22
+ * 
+ * Course class
+ * <p>
+ * 
+ * This is the Triangle class which contains attributes and functionality for a triangle shape.
+ * 
+ * </p>
+ * 
+ */
+
 package hw5;
 
 public class Triangle extends Shape {
@@ -6,6 +21,10 @@ public class Triangle extends Shape {
 	private int height;
 	public double area;
 
+	/**
+	 * This is the computeArea method for a triangle which returns the area of a triangle.
+	 */
+	
 	@Override
 	public double computeArea() {
 		
